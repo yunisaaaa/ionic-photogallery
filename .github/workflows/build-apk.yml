@@ -1,6 +1,6 @@
 name: Build Ionic Android APK
 
-on:
+"on":
   push:
     branches:
       - main
