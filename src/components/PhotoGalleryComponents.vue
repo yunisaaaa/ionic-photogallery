@@ -29,13 +29,14 @@
 
 <script setup lang="ts">
 import {
-    IonButton,
     IonCard,
     IonCardContent,
     IonCardHeader,
     IonCardTitle,
-    IonIcon,
-    IonText,
+    IonCol,
+    IonGrid,
+    IonImg,
+    IonRow,
 } from "@ionic/vue";
 
 defineProps< { photos: string[] }>();
